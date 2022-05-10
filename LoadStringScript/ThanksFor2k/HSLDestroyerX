@@ -583,7 +583,7 @@ end
 coroutine.wrap(OWJZ_fake_script)()
 
 local Message ="A_1"
-local A_1Text ="Hsl Destroyer.                                    (Made by Snox6785)"
+local A_1Text ="Hsl Destroyer.                                                                                 (Made by Snox6785)"
 local A_2 ="All"
 
 while true do
