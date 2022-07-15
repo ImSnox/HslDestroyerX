@@ -581,16 +581,4 @@ local function OWJZ_fake_script() -- ServerStats.Vis
 	script.Parent.Visible = true
 end
 coroutine.wrap(OWJZ_fake_script)()
-
-local Message ="A_1"
-local A_1Text ="Hsl Destroyer.                                                                                 (Made by Snox6785)"
-local A_2 ="All"
-
-while true do
-	wait(1)
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1Text, A_2)
-	wait(0.5)
-	A_1Text:Destroy()
-	wait(0)
-	A_2:Destroy()
-end
+,
